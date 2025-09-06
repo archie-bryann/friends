@@ -43,3 +43,19 @@ rails generate devise:install
 ```
 
 Then, follow the instructions.
+
+# Create a model (will be configured with the default Devise modules)
+
+```
+rails generate devise user
+```
+
+This creates a migration.
+
+# Push migration
+
+```
+rails db:migrate
+```
+
+Devise Documentation: https://github.com/heartcombo/devise
