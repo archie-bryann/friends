@@ -83,5 +83,5 @@ gem install htmlbeautifier
 Then run:
 
 ```
-htmlbeautifier app/views
+htmlbeautifier app/views/friends/_form.html.erb
 ```
