@@ -59,3 +59,29 @@ rails db:migrate
 ```
 
 Devise Documentation: https://github.com/heartcombo/devise
+
+# "Add user id to friend" migration
+
+```
+rails g migration add_user_id_to_friends user_id:integer:index
+```
+
+# Push migration
+
+```
+rails db:migrate
+```
+
+# To beautify .html.erb files
+
+First, install `htmlbeautifier` globally
+
+```
+gem install htmlbeautifier
+```
+
+Then run:
+
+```
+htmlbeautifier app/views
+```
