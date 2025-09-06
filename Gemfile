@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rails", "~> 8.0.2", ">= 8.0.2.1"
 gem "propshaft"
-gem "sqlite3", ">= 2.1"
+gem "sqlite3", ">= 2.1" # move to `development` group, use `postgreSQL` for production
 gem "puma", ">= 5.0"
 gem "importmap-rails"
 gem "turbo-rails"
@@ -25,6 +25,11 @@ end
 
 group :development do
   gem "web-console"
+  # move sqlite here
+end
+
+group :production do
+  # use postgres here
 end
 
 group :test do

@@ -85,3 +85,9 @@ Then run:
 ```
 htmlbeautifier app/views/friends/_form.html.erb
 ```
+
+# Install gems in the Gemfile except from production stuff
+
+```
+bundle install --without production
+```
