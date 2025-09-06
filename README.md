@@ -6,6 +6,12 @@
 rails g controller home index
 ```
 
+# Check routes
+
+```
+rails routes
+```
+
 # Create a scaffold
 
 ```
