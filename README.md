@@ -25,3 +25,21 @@ Supported Types: https://guides.rubyonrails.org/v3.2/migrations.html#supported-t
 ```
 rails db:migrate
 ```
+
+# Install a package (devise)
+
+1. Add to gemfile from https://rubygems.org/gems/devise
+
+2. Install all gem in the gemfile:
+
+```
+bundle install
+```
+
+# Run the 'devise' generator
+
+```
+rails generate devise:install
+```
+
+Then, follow the instructions.
